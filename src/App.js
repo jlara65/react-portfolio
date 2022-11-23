@@ -1,10 +1,17 @@
 import React from 'react';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Project from './components/Project';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <section>
-      <h1>Testing</h1>
-    </section>
+    <main>
+      <Header></Header>
+      <Navigation></Navigation>
+      <Project></Project>
+      <Footer></Footer>
+    </main>
   );
 }
 
