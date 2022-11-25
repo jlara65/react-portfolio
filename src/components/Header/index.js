@@ -1,12 +1,9 @@
 // HEADER INDEX.JS
 import React from 'react';
+import Nav from '../Navigation/index';
 
 function Header() {
-  return (
-    <section>
-      <p>This is where Header will be add</p>
-    </section>
-  );
+  return <Nav />;
 }
 
 export default Header;
