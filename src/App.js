@@ -1,30 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
+import Home from './components/Home';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import About from './components/pages/About';
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route
-          path="/about"
-          render={() => (
-            <>
-              <About />
-            </>
-          )}
-        />
-        {/*
-        <Navigation></Navigation>
-        <Project></Project>
-          <Footer></Footer> */}
-      </Routes>
-    </Router>
+    <>
+      <HelmetProvider>
+        <Helmet>
+          <title>Joseph Lara's Portfolio</title>
+        </Helmet>
+        <Header></Header>
+        <Footer></Footer>
+      </HelmetProvider>
+    </>
   );
 }
 
