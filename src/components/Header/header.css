@@ -1,0 +1,13 @@
+.navbar-collapse {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  min-height: 100%;
+}
+.navbar-collapse.show,
+.navbar-collapse.collapsing {
+  top: 100%;
+  background-color: rgb(var(--gray-csv), 0.8);
+  border-bottom-left-radius: 100%;
+}

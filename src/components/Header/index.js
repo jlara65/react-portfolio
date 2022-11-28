@@ -1,25 +1,14 @@
 // HEADER INDEX.JS
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 import Nav from '../Navigation/index';
+import '../Header/header.css';
 
 function Header(props) {
   const { currentPage, handlePageChange } = props;
   return (
-    <div>
-      <section>
-        <header>
-          <div>
-            <h1>Joseph Lara's Portfolio</h1>
-          </div>
-          <div>
-            <Nav
-              currentPage={currentPage}
-              handlePageChange={handlePageChange}
-            ></Nav>
-          </div>
-        </header>
-      </section>
-    </div>
+    <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
   );
 }
 

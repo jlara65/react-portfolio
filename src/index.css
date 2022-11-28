@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Staatliches&display=swap');
+
+html {
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  color: #e7e7e7;
+  /* background-color: #e7e6d8; */
+  background-color: #1e1e1e;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.custom-paragraph-link {
+  color: #2eb3b8;
+}
+
+.custom-paragraph-link:hover {
+  color: #ffffff;
+}
+
+.page-content {
+  width: 100%;
+  margin-top: 4rem;
+  margin-right: 4rem;
+  margin-left: 22rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .page-content {
+    margin-top: 12rem;
+    margin-left: 0;
+  }
 }

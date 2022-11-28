@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header';
 import Home from './components/Home';
 import Project from './components/Project';
-import Footer from './components/Footer';
 import About from './components/pages/About';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [currentPage, handlePageChange] = useState('home');
@@ -23,17 +23,16 @@ function App() {
   };
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>Joseph Lara's Portfolio</title>
-        </Helmet>
-        <Header
-          currentPage={currentPage}
-          handlePageChange={handlePageChange}
-        ></Header>
-        <main>{renderPage()}</main>
-        <Footer></Footer>
-      </HelmetProvider>
+      <title>Joseph Lara's Portfolio | {currentPage}</title>
+      <div className="d-flex flex-lg-row flex-md-column flex-sm-column flex-column">
+        <div>
+          <Header
+            currentPage={currentPage}
+            handlePageChange={handlePageChange}
+          />
+        </div>
+        <div className="page-content">{renderPage()}</div>
+      </div>
     </>
   );
 }
