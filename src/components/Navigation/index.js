@@ -57,7 +57,7 @@ function Navigation(props) {
           <span>Resume</span>
         </ul>
       </div>
-      <Footer />
+      <Footer className="mt-auto side-nav-footer"></Footer>
     </Nav>
   );
 }
