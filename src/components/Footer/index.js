@@ -1,6 +1,7 @@
 // FOOTER INDEX.JS
 import React from 'react';
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsStackOverflow } from 'react-icons/bs';
+import { IconContext } from 'react-icons';
 import './footer.css';
 
 function Footer() {
@@ -13,7 +14,9 @@ function Footer() {
         title="https://github.com/jlara65"
         className="p-2 mx-2 text-light"
       >
-        <BsGithub />
+        <IconContext.Provider value={{ className: 'custom-icon', size: 40 }}>
+          <BsGithub />
+        </IconContext.Provider>
       </a>
       <a
         href="https://www.linkedin.com/in/mr-joseph-lara"
@@ -22,7 +25,21 @@ function Footer() {
         title="https://www.linkedin.com/in/mr-joseph-lara"
         className="p-2 mx-2 text-light"
       >
-        <BsLinkedin />
+        <IconContext.Provider value={{ className: 'custom-icon', size: 40 }}>
+          <BsLinkedin />
+        </IconContext.Provider>
+      </a>
+      <a
+        href="https://stackoverflow.com/users/19400958/joseph"
+        target="_blank"
+        rel="noreferrer"
+        title="https://stackoverflow.com/users/19400958/joseph"
+        className="p-2 mx-2 text-light"
+      >
+        {' '}
+        <IconContext.Provider value={{ className: 'custom-icon', size: 40 }}>
+          <BsStackOverflow />
+        </IconContext.Provider>
       </a>
       {/* <p className="text-center mb-5">Thank you for stopping by this site!</p> */}
     </div>
