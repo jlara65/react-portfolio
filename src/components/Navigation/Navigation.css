@@ -5,7 +5,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #232323;
+  background-color: #203647;
   transition: 0.5s ease;
   overflow-x: hidden;
   padding-top: 20px;
@@ -27,7 +27,7 @@
 .nav-title {
   font-family: 'Staatliches', cursive;
   font-size: 3rem;
-  color: #e7e7e7;
+  color: #eefbfb;
 }
 
 .custom-nav-link {
@@ -37,7 +37,7 @@
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
-  color: #e7e7e7;
+  color: #eefbfb;
   transition: 0.2s ease;
   padding: 1rem;
 }
@@ -53,13 +53,13 @@
 }
 
 .link-active {
-  background-color: #e7e7e7;
+  background-color: #eefbfb;
   border-radius: 4px;
   color: #232323 !important;
 }
 
 .custom-nav-link:visited {
-  color: #e7e7e7;
+  color: #eefbfb;
 }
 
 @media only screen and (max-width: 992px) {
@@ -82,7 +82,7 @@
     flex-direction: row;
   }
 
-  .side-nav-footer {
+  .social {
     display: none;
   }
 }

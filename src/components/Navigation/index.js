@@ -1,7 +1,7 @@
 // Navigation INDEX.JS
 import React, { useEffect } from 'react';
+import resume from '../../assets/resume/Lara_Resume.pdf';
 import './Navigation.css';
-// import Nav from 'react-bootstrap/Nav';
 import Footer from '../Footer/index';
 
 // import { capitalizeFirstLetter } from '../../utils/helpers';
@@ -43,7 +43,7 @@ function Navigation(props) {
                 : 'custom-nav-link'
             }
           >
-            About
+            About Me
           </a>
 
           <a
@@ -69,7 +69,18 @@ function Navigation(props) {
             Contact
           </a>
 
-          <span>Resume</span>
+          <a
+            href={resume}
+            target="blank"
+            rel="noreferrer"
+            className={
+              currentPage === 'Resume'
+                ? 'custom-nav-link link-active'
+                : 'custom-nav-link'
+            }
+          >
+            Resume
+          </a>
         </ul>
       </div>
       <Footer className="mt-auto side-nav-footer"></Footer>

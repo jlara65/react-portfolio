@@ -8,6 +8,6 @@
 .navbar-collapse.show,
 .navbar-collapse.collapsing {
   top: 100%;
-  background-color: rgb(var(--gray-csv), 0.8);
+  background-color: #203647, 0.8;
   border-bottom-left-radius: 100%;
 }

@@ -47,10 +47,10 @@ function Contact() {
           <BsGithub />
         </a>
         <a
-          href="www.linkedin.com/in/mr-joseph-lara"
+          href="https://www.linkedin.com/in/mr-joseph-lara"
           target="_blank"
           rel="noreferrer"
-          title="www.linkedin.com/in/mr-joseph-lara"
+          title="https://www.linkedin.com/in/mr-joseph-lara"
           className="p-2 mx-2 text-light custom-icon"
         >
           <BsLinkedin />

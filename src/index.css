@@ -7,8 +7,10 @@ html {
 body {
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
-  color: #e7e7e7;
-  background-color: #1e1e1e;
+  /* color: #e7e7e7; */
+  color: #eefbfb;
+  /* background-color: #1e1e1e; */
+  background-color: #12232e;
   height: 100%;
 }
 
@@ -17,9 +19,9 @@ body {
 }
 
 .custom-paragraph-link {
-  color: #2eb3b8;
+  color: #4da8da;
 }
 
 .custom-paragraph-link:hover {
-  color: #ffffff;
+  color: #eefbfb;
 }
