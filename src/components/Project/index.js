@@ -3,9 +3,9 @@ import React from 'react';
 
 function Project() {
   return (
-    <section>
-      <p>This is where Project will be add</p>
-    </section>
+    <div className="container-fluid">
+      <h2 className="pe-3 border-end text-end me-5">Projects</h2>
+    </div>
   );
 }
 

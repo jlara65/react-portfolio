@@ -1,7 +1,7 @@
 // Navigation INDEX.JS
 import React, { useEffect } from 'react';
 import './Navigation.css';
-import Nav from 'react-bootstrap/Nav';
+// import Nav from 'react-bootstrap/Nav';
 import Footer from '../Footer/index';
 
 // import { capitalizeFirstLetter } from '../../utils/helpers';
@@ -13,7 +13,7 @@ function Navigation(props) {
     document.title = `Lara's Portfolio | ${currentPage}`;
   }, [currentPage]);
   return (
-    <Nav className="side-nav">
+    <nav className="side-nav">
       <div className="container-fluid text-center">
         <img
           src="https://i.imgur.com/uCUDEMv.jpg"
@@ -55,14 +55,25 @@ function Navigation(props) {
                 : 'custom-nav-link'
             }
           >
-            Project
+            Projects
+          </a>
+          <a
+            href="#Contact"
+            onClick={() => handlePageChange('Contact')}
+            className={
+              currentPage === 'Contact'
+                ? 'custom-nav-link link-active'
+                : 'custom-nav-link'
+            }
+          >
+            Contact
           </a>
 
           <span>Resume</span>
         </ul>
       </div>
       <Footer className="mt-auto side-nav-footer"></Footer>
-    </Nav>
+    </nav>
   );
 }
 

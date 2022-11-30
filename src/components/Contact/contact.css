@@ -1,0 +1,7 @@
+.custom-icon {
+  transition: 0.2s ease;
+}
+
+.custom-icon:hover {
+  transform: scale(1.1);
+}

@@ -1,7 +1,5 @@
 // HEADER INDEX.JS
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
 import Nav from '../Navigation/index';
 import '../Header/header.css';
 

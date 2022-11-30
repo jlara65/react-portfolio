@@ -3,8 +3,8 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Project from './components/Project';
 import About from './components/pages/About';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './components/Contact';
+import './App.css';
 
 function App() {
   const [currentPage, handlePageChange] = useState('home');
@@ -19,11 +19,13 @@ function App() {
     if (currentPage === 'Home') {
       return <Home />;
     }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
     return <Home />;
   };
   return (
     <>
-      <title>Joseph Lara's Portfolio | {currentPage}</title>
       <div className="d-flex flex-lg-row flex-md-column flex-sm-column flex-column">
         <div>
           <Header
