@@ -6,7 +6,7 @@ function About() {
     <div className="container-fluid">
       <h2 className="pe-3 border-end text-end me-5 mb-5">About Me</h2>
       <div className="container">
-        <p>
+        <p className="about-text">
           I am a web developer passionate about creating the meaningful and high
           quality application using modern technologies. I am currently working
           on to complete the Coding BootCamp program from the University of

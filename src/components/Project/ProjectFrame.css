@@ -19,7 +19,7 @@
 }
 
 .custom-card-text {
-  background-color: #fff;
+  background-color: #eefbfb;
   border-radius: 100%;
   box-shadow: 5px 5px 15px #00000054;
   height: 140px;
@@ -86,7 +86,7 @@
   padding: 15px 0;
   background-color: #2eb3b8;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  color: #fff;
+  color: #eefbfb;
   font: 700 18px/1 'Lato', sans-serif;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
