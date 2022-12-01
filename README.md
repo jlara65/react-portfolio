@@ -20,7 +20,7 @@ No installation required
 
 ## Usage
 
-The React Portfolio application is currently deployed with [GitHub Pages](https://jlara65.github.io/react-portfolio/))
+The React Portfolio application is currently deployed with [GitHub Pages](https://jlara65.github.io/react-portfolio/)
 
 - Screenshot of Portfolio's homepage
   ![Screenshot](./images/Portfolio_screenshot.png)
