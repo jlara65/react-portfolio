@@ -41,7 +41,6 @@ function Footer() {
           <BsStackOverflow />
         </IconContext.Provider>
       </a>
-      {/* <p className="text-center mb-5">Thank you for stopping by this site!</p> */}
     </div>
   );
 }
