@@ -1,12 +1,21 @@
 export const projectData = [
   {
+    title: 'Job-Rater',
+    language: 'HTML, CSS, JavaScript, GraphQL, React, MongoDB, NodeJS, Express',
+    liveUrl: 'https://blooming-stream-37548.herokuapp.com/',
+    gitHubUrl: 'https://github.com/bsolis6878/job-rater/tree/main',
+    img: 'https://i.imgur.com/hR1vpYp.png',
+    alt: 'job-rater screenshot project',
+    isNew: true,
+  },
+  {
     title: 'SkyNet Watch',
     language: 'HTML, CSS, JavaScript, MySQL, Handlebars, NodeJS, Express,  ',
     liveUrl: 'https://polar-atoll-04436.herokuapp.com/',
     gitHubUrl: 'https://github.com/dlope0831/SkyNet-Watch',
     img: 'https://i.imgur.com/doHzk1k.png',
     alt: 'test img',
-    isNew: true,
+    isNew: false,
   },
   {
     title: 'Music App',
