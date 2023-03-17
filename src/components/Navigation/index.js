@@ -1,6 +1,6 @@
 // Navigation INDEX.JS
 import React, { useEffect } from 'react';
-import resume from '../../assets/resume/Lara_Resume.pdf';
+import resume from '../../assets/resume/Lara_Resume_2.pdf';
 import './Navigation.css';
 import Footer from '../Footer/index';
 
